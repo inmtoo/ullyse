@@ -23,6 +23,7 @@
                                 <h2>
                                     What is yoga?
                                 </h2>
+                                <p><img src="/images/pic1.jpg"/></p>
                                 <p>
                                     In the modern world, the South Asian art of yoga has expanded to all corners of the globe. While it is now a popular form of exercise and meditation, this has not always been the case.
                                 </p>
@@ -30,6 +31,7 @@
                                 <h2>
                                     Philosophy
                                 </h2>
+                                 <p><img src="/images/pic2.jpg"/></p>
                                 <p>
                                     To convey its spiritual message and guide sessions, yoga often uses the imagery of a tree with roots, a trunk, branches, blossoms, and fruits. Each "branch" of yoga represents a different focus and set of characteristics.
                                 </p>';

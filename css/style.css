@@ -183,6 +183,10 @@ section.content .comments .comment .title {
 	font-weight: 600;
 }
 
+section.content .page-text img {
+	max-width: 100%;
+}
+
 .sidebar .widget {
 	border:1px #f1f1f1 solid;
 	margin-bottom: 20px;

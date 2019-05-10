@@ -1,0 +1,13 @@
+
+<codestructure version="1.4">
+<phptree>
+<treenode node="data.php;PHP:PHP Include;D:\OSPanel\domains\ullyse\index.php;f20;1;28;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="functions.php;PHP:PHP Include;D:\OSPanel\domains\ullyse\index.php;f20;0;33;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="bgimage;PHP:Function Name;D:\OSPanel\domains\ullyse\functions.php;f0;12;1;18;;;;vpos;;v;;a;;r;;d32,12;;b0,0;;m0;;eurl;;p">
+</treenode>
+<treenode node="get_array_from_json_url;PHP:Function Name;D:\OSPanel\domains\ullyse\functions.php;f0;2;1;10;;;;vpos;;v;;a;;r;;d0,3;;b0,0;;m0;;eurl;;p">
+</treenode>
+</phptree>
+</codestructure>
