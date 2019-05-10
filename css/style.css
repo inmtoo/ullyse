@@ -1,0 +1,277 @@
+/***
+
+WHY WITHOUT "COOL JS EFFECTS"
+SOME USERS CAN OFF JS AND WE NEED TO SHOW SITE AND SELL PRODUCT. OUR PURPOSE IS ACTION BUT NOT DEMONSTRATION SKILLS OF DEVELOPER
+
+WHY BOOTSTRAP?
+IT CANS ANY FRAMEWORK. BUTSTRAP INCLUDES INTO MANY FRAMEWORKS AND HAS GOOD COMMUNITY
+
+WHY WITHOUT LESS?
+I LIKE LESS. BUT IT IS JS (LOOK ABOWE THIS ROW). AND NEED COMPILE
+
+WHAT IS PURPOSE OF THIS PAGE?
+WE INTRODUCE FOR US USER TO YOGA AND WE WOPE THEY`LL JOIN
+SO THAT`S WHY WE OFFER THEM TO GET FREE LESSON IN ONE OF OUR SCHOOL
+
+
+***/
+
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
+
+a {
+	color:#212121;
+}
+
+h1, h2, .h1, .h2, h3, .h3 {
+	font-family: 'Francois One', sans-serif;
+}
+
+.btn-red {
+	background-color:#cc0000;
+	color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #23aba9;
+    border-color: #23aba9;
+}
+
+.btn-outline-success {
+	border-color: #23aba9;
+	color: #23aba9;
+}
+
+.btn-outline-success:hover {
+	background-color: #23aba9;
+	border-color: #23aba9;
+	color: #333;
+}
+
+header {
+	height: 100vh;
+	text-align: center;
+	background-attachment: fixed;
+	/*background-image: url('/images/post-23321.jpg');*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:#fff;
+}
+
+header a {
+	color:#eee;
+}
+
+header a:hover {
+	color:#fefefe;
+}
+
+header .h1 {
+	
+	font-size: 3rem;
+}
+
+header .cover {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+    height: 100%;
+    display: table; 
+}
+
+header  .cover-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img {
+	height:100px;
+}
+
+header .actions {
+	font-size:1.5em;
+}
+
+header .actions span.sliding {
+	cursor: pointer;
+	padding:5px;
+}
+
+header .actions span.sliding:hover {
+	border: 1px solid #eee;
+}
+
+header .actions span.sliding span {
+	display:none;
+}
+
+header .actions span.sliding a:hover {
+	text-decoration: none;
+}
+
+header .actions span.sliding:hover span {
+	display:inline;
+}
+
+header .actions {
+	margin-bottom:10px;
+}
+
+header .short-description {
+	margin-bottom:10px;
+}
+
+a .fa-facebook-f {
+	color:#4267b2;
+}
+
+a .fa-vk {
+	color:#4a76a8;
+}
+
+a .fa-instagram {
+	color:#de366b;
+}
+
+a .fa-youtube {
+	color:#ff0000;
+}
+
+section.content {
+	padding-top:100px;
+	padding-bottom:100px;
+}
+
+section.content .information {
+	border:1px solid #ccc;
+	padding:15px;
+}
+
+section.content .information .author-info img {
+	height:30px;
+}
+
+section.content .page-text {
+	margin-bottom: 20px;
+	padding-top:20px;
+	padding-bottom: 20px
+}
+
+.sidebar .widget-title {
+	font-size:1.3em;
+	font-weight: 600;
+}
+
+section.content .comments {
+	border:1px solid #ccc;
+	padding:15px;
+}
+
+section.content .comments .comment-list {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+section.content .comments .comment {
+	border-bottom: 1px dotted #ccc;
+	margin-bottom:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+section.content .comments .comment .title {
+	font-weight: 600;
+}
+
+.sidebar .widget {
+	border:1px #f1f1f1 solid;
+	margin-bottom: 20px;
+	padding:15px;
+}
+
+.sidebar .widget-articles .row {
+	padding:0;
+	margin:0;
+}
+
+.sidebar .widget-articles .img {
+	padding:0;
+	margin:0;
+}
+
+.sidebar .widget-articles .article {
+	border-bottom:1px dotted #ccc;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.sidebar .widget-articles .article .short-info {
+	padding-left:10px;
+}
+
+.sidebar .widget-categories ul {
+	padding:0;
+	margin:0;
+}
+
+.sidebar .widget-categories li {
+	border-bottom:1px dotted #ccc;
+	list-style: none;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+footer {
+	background-attachment: fixed;
+	/*background-image: url('/images/post-23321.jpg');*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:#fff;
+	height: 100vh;
+	text-align: center;
+	transform-style: inherit;
+}
+
+footer .cover {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	display: table;
+	width: 100%;
+}
+
+footer  .cover-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+footer .contacts .phone a {
+	color:#fff;
+	font-size: 2.5em;
+}
+
+footer .adress {
+	border-bottom:1px dotted #ccc;
+	margin-bottom:20px;
+	padding-bottom:20px;
+}
+
+footer .offer {
+	font-size:1.5em;
+	text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 768px) {
+	
+	header, footer, section {
+		height: auto !important;
+	}
+	
+	section .cover, header .cover, footer .cover {
+		padding-top:100px;
+		padding-bottom:100px;
+	}
+	
+}
